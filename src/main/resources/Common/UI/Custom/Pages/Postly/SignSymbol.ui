@@ -15,10 +15,10 @@ $S = "../../Sounds.ui";
 );
 
 Button {
-  Anchor: (Width: 44, Height: 44, Horizontal: 3);
+  Anchor: (Width: 38, Height: 38, Horizontal: 2);
   Style: @SymbolStyle;
 
   AssetImage #Icon {
-    Anchor: (Full: 6);
+    Anchor: (Full: 5);
   }
 }

@@ -65,6 +65,78 @@
               "ClearParticlesOnRemove": true
             }
           ]
+        },
+        "Written_Pin": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Pin",
+              "PositionOffset": {
+                "Z": 0.1
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        },
+        "Written_Cave": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Cave",
+              "PositionOffset": {
+                "Z": 0.1
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        },
+        "Written_Swirl": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Swirl",
+              "PositionOffset": {
+                "Z": 0.1
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        },
+        "Written_Camp": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Camp",
+              "PositionOffset": {
+                "Z": 0.1
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        },
+        "Written_Chest": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Chest",
+              "PositionOffset": {
+                "Z": 0.1
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        },
+        "Written_Sword": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Sword",
+              "PositionOffset": {
+                "Z": 0.1
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
         }
       }
     },
