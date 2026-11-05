@@ -6,10 +6,61 @@
     },
     "State": {
       "Definitions": {
-        "Written": {
+        "Written_Exclamation": {
           "Particles+": [
             {
-              "SystemId": "Written_Sign_Particle",
+              "SystemId": "Written_Sign_Exclamation",
+              "PositionOffset": {
+                "Z": 0.08
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        },
+        "Written_Angry": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Angry",
+              "PositionOffset": {
+                "Z": 0.08
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        },
+        "Written_Heart": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Heart",
+              "PositionOffset": {
+                "Z": 0.08
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        },
+        "Written_Question": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Question",
+              "PositionOffset": {
+                "Z": 0.08
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        },
+        "Written_Star": {
+          "Particles+": [
+            {
+              "SystemId": "Written_Sign_Star",
+              "PositionOffset": {
+                "Z": 0.08
+              },
               "TargetNodeName": "Sign",
               "ClearParticlesOnRemove": true
             }

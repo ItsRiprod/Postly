@@ -1,0 +1,24 @@
+{
+  "BlockType": {
+    "InteractionHint": "server.interactionHints.edit",
+    "Interactions": {
+      "Use": "Postly_Sign_Use"
+    },
+    "State": {
+      "Definitions": {
+        "Written": {
+          "Particles": [
+            {
+              "SystemId": "Written_Sign_Particle",
+              "PositionOffset": {
+                "Z": 0.08
+              },
+              "TargetNodeName": "Sign",
+              "ClearParticlesOnRemove": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Particle": {
+    "Animation": {
+      "0": {
+        "Opacity": 1,
+        "Scale": {
+          "X": {
+            "Min": 0.2,
+            "Max": 0.2
+          },
+          "Y": {
+            "Min": 0.2,
+            "Max": 0.2
+          }
+        }
+      }
+    },
+    "Texture": "Particles/Textures/Shapes/Hearts_HiRes.png"
+  },
+  "ParticleRotateWithSpawner": true
+}

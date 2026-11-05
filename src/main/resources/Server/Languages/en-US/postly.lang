@@ -1,3 +1,9 @@
 sign.title = Sign
 sign.placeholder = Write something...
 sign.save = Save
+sign.symbol = Icon
+sign.symbol.Exclamation = Exclamation
+sign.symbol.Angry = Angry
+sign.symbol.Heart = Heart
+sign.symbol.Question = Question
+sign.symbol.Star = Star

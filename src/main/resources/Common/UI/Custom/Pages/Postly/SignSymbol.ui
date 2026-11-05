@@ -1,0 +1,24 @@
+$S = "../../Sounds.ui";
+
+@SymbolStyle = ButtonStyle(
+  Default: (Background: #000000(0.25)),
+  Hovered: (Background: #000000(0.4)),
+  Pressed: (Background: #000000(0.5)),
+  Sounds: $S.@ButtonsLight
+);
+
+@SelectedSymbolStyle = ButtonStyle(
+  Default: (Background: #f2e6cf(0.3)),
+  Hovered: (Background: #f2e6cf(0.4)),
+  Pressed: (Background: #f2e6cf(0.5)),
+  Sounds: $S.@ButtonsLight
+);
+
+Button {
+  Anchor: (Width: 44, Height: 44, Horizontal: 3);
+  Style: @SymbolStyle;
+
+  AssetImage #Icon {
+    Anchor: (Full: 6);
+  }
+}

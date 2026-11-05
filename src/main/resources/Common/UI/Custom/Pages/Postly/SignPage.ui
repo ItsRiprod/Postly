@@ -35,6 +35,22 @@ $C.@PageOverlay {
         ScrollbarStyle: $C.@DefaultScrollbarStyle;
       }
 
+      Group #SymbolPicker {
+        LayoutMode: Top;
+        Anchor: (Bottom: 16);
+
+        Label {
+          Text: %postly.sign.symbol;
+          Anchor: (Bottom: 6);
+          Style: (FontSize: 14, LetterSpacing: 1, RenderUppercase: true, TextColor: #f2e6cf(0.6), HorizontalAlignment: Center);
+        }
+
+        Group #Symbols {
+          LayoutMode: CenterMiddle;
+          Anchor: (Height: 44);
+        }
+      }
+
       Group {
         LayoutMode: Center;
 
