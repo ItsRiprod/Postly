@@ -91,6 +91,7 @@ hytalePublisher {
         enabled   = true
         projectId = project.mod_id
         embedded "patchly"
+        embedded "configly"
     }
 }
 
