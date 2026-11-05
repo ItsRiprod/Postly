@@ -1,0 +1,25 @@
+{
+    "Group": "Riprod",
+    "Name": "Postly",
+    "Version": "0.1.0",
+    "Description": "A simple sign mod for those who just want some organization.",
+    "Authors": [
+        {
+            "Name": "Riprod"
+        }
+    ],
+    "Website": "https://modtale.net/mod/postly",
+    "ServerVersion": "^0.7.0",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "Main": "com.riprod.postly.PostlyPlugin",
+    "UpdateChecker": {
+        "CurseForge": "1622682"
+    }
+}

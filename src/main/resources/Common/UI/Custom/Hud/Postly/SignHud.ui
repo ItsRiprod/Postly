@@ -1,0 +1,25 @@
+Group {
+  LayoutMode: Bottom;
+  Anchor: (Bottom: 190);
+
+  Group #Board {
+    LayoutMode: Top;
+    Anchor: (Width: 420);
+    Padding: (Full: 4);
+    Background: #573323;
+    OutlineColor: #301c13;
+    OutlineSize: 4;
+
+    Group #Bevel {
+      LayoutMode: Top;
+      Padding: (Horizontal: 14, Vertical: 8);
+      OutlineColor: #7a4831;
+      OutlineSize: 2;
+
+      Label #Text {
+        Text: "";
+        Style: (FontSize: 16, TextColor: #f2e6cf, OutlineColor: #000000(0.2), HorizontalAlignment: Center, Wrap: true, WrapMaxLines: 8);
+      }
+    }
+  }
+}

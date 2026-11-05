@@ -1,0 +1,50 @@
+$C = "../../Common.ui";
+
+$C.@PageOverlay {
+  LayoutMode: Middle;
+
+  Group #Board {
+    LayoutMode: Top;
+    Anchor: (Width: 520);
+    Padding: (Full: 5);
+    Background: #573323;
+    OutlineColor: #301c13;
+    OutlineSize: 5;
+
+    Group #Bevel {
+      LayoutMode: Top;
+      Padding: (Full: 15);
+      OutlineColor: #7a4831;
+      OutlineSize: 2;
+
+      Label #PageTitle {
+        Text: %postly.sign.title;
+        Anchor: (Bottom: 12);
+        Style: (FontName: "Secondary", FontSize: 20, LetterSpacing: 1, RenderBold: true, RenderUppercase: true, TextColor: #f2e6cf(0.8), OutlineColor: #000000(0.45), HorizontalAlignment: Center);
+      }
+
+      MultilineTextField #TextInput {
+        Anchor: (Height: 180, Bottom: 16);
+        Padding: (Full: 12);
+        Background: #000000(0.25);
+        Style: (FontSize: 18, TextColor: #f2e6cf);
+        PlaceholderStyle: (FontSize: 18, TextColor: #f2e6cf(0.4));
+        PlaceholderText: %postly.sign.placeholder;
+        MaxLength: 1024;
+        AutoFocus: true;
+        ScrollbarStyle: $C.@DefaultScrollbarStyle;
+      }
+
+      Group {
+        LayoutMode: Center;
+
+        $C.@TextButton #SaveButton {
+          @Anchor = (Width: 200);
+          Text: %postly.sign.save;
+        }
+      }
+    }
+  }
+}
+
+$C.@BackButton {}
