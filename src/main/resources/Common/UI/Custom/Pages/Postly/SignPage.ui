@@ -31,7 +31,6 @@ $C.@PageOverlay {
         PlaceholderStyle: (FontSize: 18, TextColor: #f2e6cf(0.4));
         PlaceholderText: %postly.sign.placeholder;
         MaxLength: 1024;
-        AutoFocus: true;
         ScrollbarStyle: $C.@DefaultScrollbarStyle;
       }
 
